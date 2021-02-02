@@ -5,8 +5,8 @@ import domain.Exercise;
 public class TestResult {
 
     public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        int[] arr = {128, 1241, 123, 4142};
+        System.out.printf("The second largest in a given array: %d",
+                Exercise.Calculate(arr));      
     }
 }
